@@ -6,9 +6,9 @@ public class Main {
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
         double c = scanner.nextDouble();
-        double d = scanner.nextDouble();
-        double x1 = scanner.nextDouble();
-        double x2 = scanner.nextDouble();
+        double d;
+        double x1;
+        double x2;
         d = b * b - 4 * a * c;
         if (d >= 0) {
             x1 = (-b + Math.sqrt(d) / (2 * a));
